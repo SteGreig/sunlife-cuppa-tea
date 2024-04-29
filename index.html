@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="ie lt-ie9 lt-ie8 lt-ie7 no-touch-support"> <![endif]-->
+<!--[if IE 7]>         <html class="ie lt-ie9 lt-ie8 ie7 no-touch-support"> <![endif]-->
+<!--[if IE 8]>         <html class="ie lt-ie9 ie8 no-touch-support"> <![endif]-->
+<!--[if IE 9]>         <html class="ie ie9 no-touch-support"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> 
+<html class="no-touch-support" lang="en">
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <title>What does your tea say about you? - SunLife</title>
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!--[if gt IE 8]><!--> 
+        <link rel="stylesheet" media="screen" type="text/css" href="source/css/init.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <style type="text/css">@font-face{font-family:'vag bold';src:url(source/fonts/vag_rounded_bold-webfont.eot);src:url(source/fonts/vag_rounded_bold-webfont.eot?#iefix) format('embedded-opentype'),url(source/fonts/vag_rounded_bold-webfont.woff2) format('woff2'),url(source/fonts/vag_rounded_bold-webfont.woff) format('woff'),url(source/fonts/vag_rounded_bold-webfont.ttf) format('truetype'),url(source/fonts/vag_rounded_bold-webfont.svg#vag_roundedbold) format('svg');font-weight:400;font-style:normal}.cuppa{font-size:1.2em;background:url(source/images/texture.png);height:100%;text-align:center;overflow:hidden}.cuppa-container{width:100%;max-width:1000px;margin:0 auto;position:relative}.cuppa-clearfix{clear:both}.cuppa-header{background:0 0;padding:20px 15px;margin-bottom:20px;height:130px;position:relative;font-size:.85em}.cuppa-header-container{width:100%;max-width:700px;margin:0 auto}.cuppa-header-container:before{content:"";background:#009fe3;height:600px;-webkit-transform:skewY(-4.2deg);transform:skewY(-4.2deg);position:absolute;bottom:0;left:0;right:0;display:block}.cuppa-header h1{color:#fff;font:3.6em/1 vag bold;position:relative;text-align:left}.cuppa-header h1 span{color:#ffed00}.cuppa h1 .cuppa-pre-title{display:block;font-size:.6em;margin-bottom:5px}.cuppa-intro{text-align:left;margin:40px auto;color:#143b62;font-family:vag bold;max-width:700px;width:100%}.cuppa-intro p{font-size:1.4em;line-height:1.5;margin:1em 0;padding:0 15px}.cuppa-main{background:url(source/images/cuppa-table-bg.jpg) center #f3ead5;background-size:cover;padding:30px 0 50px}.cuppa-mug-wrap{padding:0 20px 0 10px}.cuppa-mug-wrap img{position:relative;top:0;left:0;display:none}.cuppa-mug-wrap .cuppa-empty{display:inline}.cuppa-colour-chart{margin-top:30px}.cuppa-colour-chart li{margin-top:5px;padding:10px;background:#fff;font-family:VAG Rounded W01 Light;font-size:1.5em;text-align:left;overflow:hidden;cursor:pointer;position:relative;-webkit-transition:.6s;transition:.6s}.cuppa-colour-chart li:before{content:"";width:75px;height:35px;background:brown;float:left;margin-right:10px}.cuppa-colour-chart .cuppa-chart-barely:before{background:#fceed3}.cuppa-colour-chart .cuppa-chart-milky:before{background:#f4d9a4}.cuppa-colour-chart .cuppa-chart-builders:before{background:#da9a4d}.cuppa-colour-chart .cuppa-chart-regular:before{background:#b16f33}.cuppa-colour-chart .cuppa-chart-black:before{background:#61201e}.cuppa-colour-chart span{float:left;padding-top:8px}.cuppa-colour-chart small{position:absolute;right:5px;top:6px;font-size:.6em;width:85px;background:#122c56;padding:7px;border-radius:5px;line-height:1.4em;color:#ccdfe7;opacity:0;visibility:hidden;-webkit-transition:.2s;transition:.2s}.cuppa-colour-chart .on small{opacity:1;visibility:visible;-webkit-transition:1s;transition:1s}.cuppa-results{width:100%;float:left}.cuppa-result-wrap{background:#fff;font:1.25em/1.4 VAG Rounded W01 Light;padding:30px 20px 15px;position:absolute;top:0;left:0;z-index:10;border:10px solid #009fe3;text-align:left;overflow:hidden;-webkit-box-sizing:border-box;box-sizing:border-box;color:#818894;line-height:1.6;opacity:0;visibility:hidden;-webkit-transform:scale(.7);transform:scale(.7)}.cuppa-result-wrap.show{opacity:1;visibility:visible;-webkit-transform:scale(1);transform:scale(1)}.cuppa-result{color:#143b62;font-size:1.6em;margin-bottom:15px;line-height:1.3}.cuppa-result-img{margin-top:20px;float:right;max-width:160px;transform:rotate(-160deg);margin-right:-40px;margin-left:20px}.cuppa-share-bar{background:#143b62;color:#fff;padding:10px;margin-top:30px}.cuppa-share-bar span{display:block;margin-bottom:10px}.cuppa-share-bar a{-webkit-transition:.3s;transition:.3s}.cuppa-share-bar a:hover{opacity:.9}.cuppa-close{border:1px solid #e3231c;font-size:1.2em;text-transform:uppercase;padding:10px;margin-bottom:20px;color:#e3231c;cursor:pointer;width:-webkit-calc(100% - 20px);width:calc(100% - 20px);text-align:center;overflow:hidden}.cuppa-close img{max-width:20px;margin-top:3px;float:left}.cuppa-close span{float:left;width:55%;text-align:right;margin-right:7px}.cuppa-overlay{width:100%;height:100%;background:#1b2a47;opacity:.5;position:fixed;top:0;left:0;z-index:1;display:none}.cuppa-fb{margin-right:5px}.cuppa-bottom-bar.cuppa-bottom-bar{background:#3c3c3b;padding:15px 1%;float:left;width:98%;font:1.25em VAG Rounded W01 Light;color:#fff;text-decoration:none;-webkit-transition:.3s;transition:.3s}.cuppa-bottom-bar:hover{opacity:.9}.cuppa-bottom-bar span{color:#ffed00}@media (min-width:450px){.cuppa-header{height:90px}}@media (min-width:500px){.cuppa-header{font-size:1em;padding:30px 15px 40px;height:100px;margin-bottom:40px}.cuppa-ans:nth-last-child(2n+1)>div{margin:18px 0 0 9px}.cuppa-ans:nth-last-child(2n)>div{margin:18px 9px 0 0}.cuppa-colour-chart small{font-size:.75em;width:190px;padding:13px}}@media (min-width:600px){.cuppa-header{height:150px;padding:30px 15px 40px;margin-bottom:50px}.cuppa-header h1{font:4.8em/1 vag bold}.cuppa-source.cuppa-source{position:absolute;top:13px;left:13px;display:inline}}@media (min-width:700px){.cuppa-header{margin-bottom:60px}.cuppa-header h1{font:5em/1 vag bold}.cuppa-main{background-size:cover;padding:40px 0 90px}.cuppa-mug-wrap{margin-left:-80px;text-align:left;float:left}.cuppa-colour-chart li{left:0}.cuppa-colour-chart .on{left:-30px}.cuppa-colour-chart small{font-size:.6em;width:85px;padding:7px}.cuppa-result-wrap{left:5%;width:90%;position:fixed;border:none;border-radius:20px;box-shadow:0 0 50px rgba(0,0,0,.1);top:50%;margin-top:-230px;padding:30px;overflow:visible;-webkit-transition:.5s;transition:.5s}.cuppa-result{font-size:2.2em}.cuppa-result-img{max-width:260px;margin-right:-20px}.cuppa-share-bar{padding:13px}.cuppa-share-bar span{float:left;max-width:300px}.cuppa-close{padding:0;width:auto;margin:0;top:-10px;left:-10px;position:absolute;border-radius:50%;border:3px solid #009fe3}.cuppa-close:hover{border-color:#ffed00}.cuppa-close span{display:none}.cuppa-close img{max-width:none;margin:0}}@media (min-width:760px){.cuppa-main{padding:55px 0 100px}.cuppa-mug-wrap{margin-left:-60px}.cuppa-colour-chart li{margin-bottom:8px}.cuppa-result-desc{min-height:150px}}@media (min-width:860px){.cuppa-main{padding:80px 0 120px}.cuppa-mug-wrap{margin-left:-30px}.cuppa-mug-wrap img{top:20px}.cuppa-colour-chart li{font-size:1.9em;max-width:480px}.cuppa-colour-chart li:before{width:110px;height:45px}.cuppa-colour-chart span{padding-top:13px}.cuppa-colour-chart small{width:100px;padding:9px;font-size:.55em}.cuppa-result-wrap{width:800px;left:50%;margin-left:-400px;padding:40px}.cuppa-result-img{max-width:350px}.cuppa-share-bar{margin-top:40px}.cuppa-result-desc{min-height:190px}}@media (min-width:1000px){.cuppa-main{padding:140px 0}.cuppa-mug-wrap{margin-left:-20px;margin-right:20px}.cuppa-mug-wrap img{top:35px}.cuppa-colour-chart li{font-size:2.1em}.cuppa-colour-chart li:before{width:125px;height:50px;margin-right:20px}.cuppa-colour-chart small{width:120px;padding:10px;font-size:.5em;top:8px;right:8px;display:none}}@media (min-width:1150px){.cuppa-mug-wrap{margin-left:-60px;margin-right:35px}}</style>
+        <!--<![endif]-->
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+        <link rel="stylesheet" media="screen" href="source/css/ie7-8.css">
+        <script src="source/js/libs/html5shiv.js"></script>
+        <![endif]-->
+
+        <!-- 3rd Party Meta -->
+        <meta name="twitter:site" value="SunLife">
+        <meta property="og:site_name" content="SunLife"/>
+        <meta property="og:title" content="What does your tea say about you?" />
+        <meta property="og:image" content="source/images/cuppa-facebook-share-img.jpg" />
+        <meta property="og:description" content="There's a lot of debate about what makes a great cup of tea: should it be black or very milky? Or perhaps just a little bit of milk and no sugar? It’s up to you." />
+
+
+        <script type="text/javascript">
+        // Web font usage: tracking script required for go live...
+        var MTIProjectId='f890c8ac-2afe-4531-a027-6e2676f7fda6';
+         (function() {
+                var mtiTracking = document.createElement('script');
+                mtiTracking.type='text/javascript';
+                mtiTracking.async='true';
+                mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+                (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+           })();
+        </script>
+        <script>
+            /* set the html tag to have a javascript class to hide all the dynamic stuff */
+            document.getElementsByTagName("html")[0].className += " js";
+
+            /* workaround to get viewport size working on windows8 mobile */
+            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                    document.createTextNode(
+                        "@-ms-viewport{width:auto!important}"
+                    )
+                );
+                document.getElementsByTagName("head")[0].
+                    appendChild(msViewportStyle);
+            }
+        </script>
+
+
+    </head>
+    <body class="cuppa">
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '548197655343904',
+      xfbml      : true,
+      version    : 'v2.5',
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NNQ67Q"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NNQ67Q');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+        <div class="wrapper" id="pageTop">
+
+            <div class="page">
+
+                <div class="cookie-panel" style="display: none;">
+                    <div class="container">
+                        <!--googleoff: index-->
+                        <div class="content">
+                            <p>We use cookies to give you the best possible online experience. If you continue, we'll assume you are happy for your web browser to receive all cookies from our website. See our <a href="#">cookie policy</a> for more information on cookies and how to manage them.</p>
+                        </div>
+                        <!--googleon: index-->
+                        <div class="btn-container"><a href="#" class="btn">Close</a></div>
+                    </div>
+                </div>
+                
+
+                <header class="cuppa-header jumbotron" role="banner">
+                    <div class="cuppa-header-container">
+                        <h1><span class="cuppa-pre-title">Make Time for a Cuppa</span>What does your <span class="cuppa-yellow">tea</span> say about you?</h1>
+                    </div>
+                </header>
+
+
+                <div class="page-content cuppa-content" id="pageContent" role="main">    
+
+                    <script type="text/javascript">
+                        var stayOnPageAlert = true;
+                    </script>
+
+
+                    <div class="main">
+
+                        <div class="cuppa-intro">
+                            <p>There is a lot of debate about what makes a great cup of tea: should it be black or very milky? Or perhaps just a little bit of milk and no sugar? It’s up to you.</p>
+
+                            <p>But did you know that how you have your tea can also say a lot about you? Select an option below to find out what your tea says about your personality.</p>
+                        </div>
+
+                        <div class="cuppa-main">
+
+                            <div class="cuppa-container">
+
+                                <div class="cuppa-mug-wrap">
+                                    <img class="cuppa-empty" src="source/images/cuppa-mug-empty.png" alt="Empty mug">
+                                    <img class="cuppa-barely" src="source/images/cuppa-mug-barely.png" alt="Barely tea">
+                                    <img class="cuppa-milky" src="source/images/cuppa-mug-milky.png" alt="Milky tea">
+                                    <img class="cuppa-builders" src="source/images/cuppa-mug-builders.png" alt="Builder's tea">
+                                    <img class="cuppa-regular" src="source/images/cuppa-mug-regular.png" alt="Regular tea">
+                                    <img class="cuppa-black" src="source/images/cuppa-mug-black.png" alt="Just tea">
+                                </div>
+
+                                <ul class="cuppa-colour-chart">
+                                    <li class="cuppa-chart-barely"><span>Barely Tea</span> <small>What does this say about you? <i class="fa fa-plus-square"></i></small></li>
+                                    <li class="cuppa-chart-milky"><span>Milky Tea</span> <small>What does this say about you? <i class="fa fa-plus-square"></i></small></li>
+                                    <li class="cuppa-chart-builders"><span>Builder's Tea</span> <small>What does this say about you? <i class="fa fa-plus-square"></i></small></li>
+                                    <li class="cuppa-chart-regular"><span>Regular Tea</span> <small>What does this say about you? <i class="fa fa-plus-square"></i></small></li>
+                                    <li class="cuppa-chart-black"><span>Just Tea</span> <small>What does this say about you? <i class="fa fa-plus-square"></i></small></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="cuppa-results">
+
+                            <div class="cuppa-result-wrap cuppa-result-barely">
+                                <div class="cuppa-close"><span>Close</span> <img src="source/images/close-icon.png" alt="Close"></div>
+                                <img class="cuppa-result-img" src="source/images/cuppa-mug-barely.png" alt="">
+                                <p class="cuppa-result">You like barely tea!</p>
+                                <p class="cuppa-result-desc">You’re a dip-in, dip-out kind of tea lover. You might be quite timid and shy but your quick-dunk nature means you’re always looking for that next new thing to try. Your countless life experiences have rendered you wise and they’ve taught you to appreciate the concept of not having too much of a good thing. Because of this you always make the best out of every opportunity when it comes around.</p>
+                                <div class="cuppa-share-bar">
+                                    <p>
+                                        <span>Share your results and raise awareness for Dementia UK #timeforacuppa #dementiauk</span>
+                                        <a class="cuppa-fb" href="https://www.facebook.com/dialog/feed?app_id=548197655343904&amp;display=popup&amp;name=I+like+a+Barely+Tea.+What+does+your+tea+say+about+you?&amp;description=I+may+be+shy,+but+I+will+always+make+the+most+of+an+opportunity+when+it+comes+around!&amp;caption=www.sunlifedirect.co.uk&amp;link=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa&amp;picture=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa/source/images/cuppa-barely-fb.jpg&amp;redirect_uri=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-fb.jpg" alt="Share"></a>
+                                        <a class="cuppa-tweet" href="http://twitter.com/intent/tweet?status=I+like+a+Barely+Tea.+What+does+your+tea+say+about+you?+https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-tweet.jpg" alt="Tweet"></a>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="cuppa-result-wrap cuppa-result-milky">
+                                <div class="cuppa-close"><span>Close</span> <img src="source/images/close-icon.png" alt="Close"></div>
+                                <img class="cuppa-result-img" src="source/images/cuppa-mug-milky.png" alt="">
+                                <p class="cuppa-result">You like a milky tea!</p>
+                                <p class="cuppa-result-desc">You are a downright kind-hearted person, but don’t let anyone mistake this for naivety or foolishness because you’re smart and always asking the right questions. You love a good dunking biscuit and have a great sense of humour. Others would describe you as a fantastic friend with a knack for keeping secrets…most of the time.</p>
+                                <div class="cuppa-share-bar">
+                                    <p>
+                                        <span>Share your results and raise awareness for Dementia UK #timeforacuppa #dementiauk</span>
+                                        <a class="cuppa-fb" href="https://www.facebook.com/dialog/feed?app_id=548197655343904&amp;display=popup&amp;name=I+like+a+Milky+Tea.+What+does+your+tea+say+about+you?&amp;description=I'm+known+as+a+fantastic+friend+with+a+knack+for+keeping+secrets+and+a+great+sense+of+humour.&amp;caption=www.sunlifedirect.co.uk&amp;link=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa&amp;picture=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa/source/images/cuppa-milky-fb.jpg&amp;redirect_uri=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-fb.jpg" alt="Share"></a>
+                                        <a class="cuppa-tweet" href="http://twitter.com/intent/tweet?status=I+like+a+Milky+Tea.+What+does+your+tea+say+about+you?+https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-tweet.jpg" alt="Tweet"></a>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="cuppa-result-wrap cuppa-result-builders">
+                                <div class="cuppa-close"><span>Close</span> <img src="source/images/close-icon.png" alt="Close"></div>
+                                <img class="cuppa-result-img" src="source/images/cuppa-mug-builders.png" alt="">
+                                <p class="cuppa-result">You like a builder's tea!</p>
+                                <p class="cuppa-result-desc">As a builder of a beloved classic tea; sugar, milk and a strong brew describe you perfectly. You’re made of sterner stuff than people realise, but only because of your sweet, smooth and sometimes silly exterior. Whilst you’re not one to shy away from a challenge, you are precarious when it comes to your emotions… in a good way! Once someone has earned your trust, you defrost and become the fun-loving person that you truly are.</p>
+                                <div class="cuppa-share-bar">
+                                    <p>
+                                        <span>Share your results and raise awareness for Dementia UK #timeforacuppa #dementiauk</span>
+                                        <a class="cuppa-fb" href="https://www.facebook.com/dialog/feed?app_id=548197655343904&amp;display=popup&amp;name=I+like+a+Builder's+Tea.+What+does+your+tea+say+about+you?&amp;description=I'm+a+kind-hearted+person+who+will+never+shy+away+from+a+challenge.&amp;caption=www.sunlifedirect.co.uk&amp;link=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa&amp;picture=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa/source/images/cuppa-builders-fb.jpg&amp;redirect_uri=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-fb.jpg" alt="Share"></a>
+                                        <a class="cuppa-tweet" href="http://twitter.com/intent/tweet?status=I+like+a+Builder's+Tea.+What+does+your+tea+say+about+you?+https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-tweet.jpg" alt="Tweet"></a>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="cuppa-result-wrap cuppa-result-regular">
+                                <div class="cuppa-close"><span>Close</span> <img src="source/images/close-icon.png" alt="Close"></div>
+                                <img class="cuppa-result-img" src="source/images/cuppa-mug-regular.png" alt="">
+                                <p class="cuppa-result">You like a regular tea!</p>
+                                <p class="cuppa-result-desc">Unlike your tea, there is nothing regular about you. You are a cheeky character whose intelligence makes you one of the most entertaining people to be around. You appreciate critique and guidance and take everything on-board, hence why you follow George Orwell’s tea making instructions to the ‘tea’ (pun-intended)!  Not to mention you are a brave soul and when the time comes you can take anything on.</p>
+                                <div class="cuppa-share-bar">
+                                    <p>
+                                        <span>Share your results and raise awareness for Dementia UK #timeforacuppa #dementiauk</span>
+                                        <a class="cuppa-fb" href="https://www.facebook.com/dialog/feed?app_id=548197655343904&amp;display=popup&amp;name=I+like+a+Regular+Tea.+What+does+your+tea+say+about+you?&amp;description=There's+nothing+regular+about+me,+I'm+brave,+intelligent+and+great+to+be+around!&amp;caption=www.sunlifedirect.co.uk&amp;link=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa&amp;picture=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa/source/images/cuppa-regular-fb.jpg&amp;redirect_uri=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-fb.jpg" alt="Share"></a>
+                                        <a class="cuppa-tweet" href="http://twitter.com/intent/tweet?status=I+like+a+Regular+Tea.+What+does+your+tea+say+about+you?+https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-tweet.jpg" alt="Tweet"></a>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="cuppa-result-wrap cuppa-result-black">
+                                <div class="cuppa-close"><span>Close</span> <img src="source/images/close-icon.png" alt="Close"></div>
+                                <img class="cuppa-result-img" src="source/images/cuppa-mug-black.png" alt="">
+                                <p class="cuppa-result">You like just tea! </p>
+                                <p class="cuppa-result-desc">You are a solid, strong, classic black tea. Like your tea, your life contains no nonsense and no faff, making you a fantastic leader. You are particularly talented at removing all unnecessary complications from your life, but this headstrong attitude does not mean you have no heart. Your stoic exterior is not immune to melting and you are intensely loyal; only ever wanting what is best for your loved ones.</p>
+                                <div class="cuppa-share-bar">
+                                    <p>
+                                        <span>Share your results and raise awareness for Dementia UK #timeforacuppa #dementiauk</span>
+                                        <a class="cuppa-fb" href="https://www.facebook.com/dialog/feed?app_id=548197655343904&amp;display=popup&amp;name=I+like+Just+Tea.+What+does+your+tea+say+about+you?&amp;description=I'm+headstrong+and+not+one+for+faffing+or+having+any+nonsense+clutter+up+my+life!&amp;caption=www.sunlifedirect.co.uk&amp;link=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa&amp;picture=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa/source/images/cuppa-black-fb.jpg&amp;redirect_uri=https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-fb.jpg" alt="Share"></a>
+                                        <a class="cuppa-tweet" href="http://twitter.com/intent/tweet?status=I+like+Just+Tea.+What+does+your+tea+say+about+you?+https://www.sunlifedirect.co.uk/life-cover/over-50-life-insurance/time-for-a-cuppa"><img src="source/images/cuppa-tweet.jpg" alt="Tweet"></a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cuppa-overlay"></div>
+
+                <a target="_blank" class="cuppa-bottom-bar" href="https://www.sunlifedirect.co.uk/life-cover/life-insurance/">
+                    SunLife offers a range of straightforward and affordable products including <span>over 50 life insurance</span>, funeral plans, life insurance, ISAs and Will writing services
+                </a>
+
+            </div>
+        </div>
+
+
+
+        <div class="popup-window" tabindex="-1" role="dialog" aria-labelledby="popup window">
+            <a href="#" class="close"><span class="close-btn"></span></a>
+            <div class="popup-window-content-holder"></div>
+        </div>
+        <div class="modal"></div>
+
+
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script src="source/js/libs/jquery-1.10.2.min.js">\x3C/script>')</script>
+        <script src="/min/bundle.min.js"></script>
+<!-- <script type="text/javascript" src="source/js/libs/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="source/js/libs/jquery.ui.touch-punch.min.js"></script>
+<script src="source/js/libs/WebUIValidation.js"></script>
+<script src="source/js/eqtr/commons/jquery.placeholder.js"></script>
+<script src="source/js/libs/jquery.smartresize.js"></script>
+<script src="source/js/libs/jquery.imagesLoaded.js"></script>
+<script src="source/js/eqtr/commons/helpers.js"></script>
+<script src="source/js/eqtr/commons/jquery.responsiveImages.js"></script>
+<script src="source/js/eqtr/commons/jquery.backgroundcover.js"></script>
+<script src="source/js/eqtr/commons/jquery.valign.js"></script>
+<script src="source/js/eqtr/commons/jquery.showHide.js"></script>
+<script src="source/js/eqtr/commons/jquery.popup.js"></script>
+<script src="source/js/eqtr/commons/jquery.equalHeights.js"></script>
+<script src="source/js/eqtr/commons/jquery.videoPlayer.js"></script>
+<script src="source/js/eqtr/commons/jquery.responsiveTable.js"></script>
+<script src="source/js/eqtr/app.js"></script>
+<script src="source/js/eqtr/components/forms.components.js"></script>
+<script src="source/js/sld/app.js"></script>
+<script src="source/js/app.init.js"></script> 
+
+        <script type="text/javascript">
+        // override the ValidatorUpdateDisplay. Keeps the original while allowing custom code to be inserted before or after the original function call
+        var ValidatorUpdateDisplay = (function() {
+	        var _ValidatorUpdateDisplay = ValidatorUpdateDisplay,
+		        debounceTimer;
+
+	        return function(val) {
+		        _ValidatorUpdateDisplay(val);
+		
+		        clearTimeout(debounceTimer);
+
+		        debounceTimer = setTimeout(function() {
+		            APP.EQTR.FORMS.validationUpdate(val);
+		        },1);
+	        }
+
+        })();
+        </script>--> 
+
+
+        <script type="text/javascript">
+
+        // jQuery scroll-to plugin
+            !function(o,e,t){"undefined"!=typeof module&&module.exports?module.exports=t():"function"==typeof define&&define.amd?define(t):e[o]=t()}("jquery-scrollto",this,function(){var o,e,t;return o=e=window.jQuery||require("jquery"),e.propHooks.scrollTop=e.propHooks.scrollLeft={get:function(o,e){var t=null;return("HTML"===o.tagName||"BODY"===o.tagName)&&("scrollLeft"===e?t=window.scrollX:"scrollTop"===e&&(t=window.scrollY)),null==t&&(t=o[e]),t}},e.Tween.propHooks.scrollTop=e.Tween.propHooks.scrollLeft={get:function(o){return e.propHooks.scrollTop.get(o.elem,o.prop)},set:function(o){"HTML"===o.elem.tagName||"BODY"===o.elem.tagName?(o.options.bodyScrollLeft=o.options.bodyScrollLeft||window.scrollX,o.options.bodyScrollTop=o.options.bodyScrollTop||window.scrollY,"scrollLeft"===o.prop?o.options.bodyScrollLeft=Math.round(o.now):"scrollTop"===o.prop&&(o.options.bodyScrollTop=Math.round(o.now)),window.scrollTo(o.options.bodyScrollLeft,o.options.bodyScrollTop)):o.elem.nodeType&&o.elem.parentNode&&(o.elem[o.prop]=o.now)}},t={config:{duration:400,easing:"swing",callback:void 0,durationMode:"each",offsetTop:0,offsetLeft:0},configure:function(o){return e.extend(t.config,o||{}),this},scroll:function(o,l){var r,n,s,i,p,c,f,a,d,u,g,h,T,w,m,y,L,b;return r=o.pop(),n=r.$container,s=r.$target,c=n.prop("tagName"),i=e("<span/>").css({position:"absolute",top:"0px",left:"0px"}),p=n.css("position"),n.css({position:"relative"}),i.appendTo(n),g=i.offset().top,h=s.offset().top,T=h-g-parseInt(l.offsetTop,10),w=i.offset().left,m=s.offset().left,y=m-w-parseInt(l.offsetLeft,10),f=n.prop("scrollTop"),a=n.prop("scrollLeft"),i.remove(),n.css({position:p}),L={},b=function(){return 0===o.length?"function"==typeof l.callback&&l.callback():t.scroll(o,l),!0},l.onlyIfOutside&&(d=f+n.height(),u=a+n.width(),T>f&&d>T&&(T=f),y>a&&u>y&&(y=a)),T!==f&&(L.scrollTop=T),y!==a&&(L.scrollLeft=y),n.prop("scrollHeight")===n.width()&&delete L.scrollTop,n.prop("scrollWidth")===n.width()&&delete L.scrollLeft,null!=L.scrollTop||null!=L.scrollLeft?n.animate(L,{duration:l.duration,easing:l.easing,complete:b}):b(),!0},fn:function(o){var l,r,n,s;l=[];var i=e(this);if(0===i.length)return this;for(r=e.extend({},t.config,o),n=i.parent(),s=n.get(0);1===n.length&&s!==document.body&&s!==document;){var p,c;p="visible"!==n.css("overflow-y")&&s.scrollHeight!==s.clientHeight,c="visible"!==n.css("overflow-x")&&s.scrollWidth!==s.clientWidth,(p||c)&&(l.push({$container:n,$target:i}),i=n),n=n.parent(),s=n.get(0)}return l.push({$container:e("html"),$target:i}),"all"===r.durationMode&&(r.duration/=l.length),t.scroll(l,r),this}},e.ScrollTo=e.ScrollTo||t,e.fn.ScrollTo=e.fn.ScrollTo||t.fn,t});
+
+            jQuery(document).ready(function($) {
+
+                $('.cuppa-colour-chart li').click(function() {
+                    $('.cuppa-mug-wrap img').hide();
+                    $('.cuppa-colour-chart li').css('opacity','.7');
+                    $(this).css('opacity','1');
+                    $('.cuppa-colour-chart li').removeClass('on');
+                    $(this).addClass('on');
+                });
+
+                $('.cuppa-chart-barely').click(function() { $('.cuppa-barely').show(); });
+                $('.cuppa-chart-milky').click(function() { $('.cuppa-milky').show(); });
+                $('.cuppa-chart-builders').click(function() { $('.cuppa-builders').show(); });
+                $('.cuppa-chart-regular').click(function() { $('.cuppa-regular').show(); });
+                $('.cuppa-chart-black').click(function() { $('.cuppa-black').show(); });
+
+
+                var windowWidth = $(window).width();
+                if (windowWidth > 999) {
+                    $('.cuppa-colour-chart li').hover(function() {
+                        $('.cuppa-mug-wrap img').hide();
+                        $('.cuppa-colour-chart li').css('opacity','.7');
+                        $(this).css('opacity','1');
+                        $('.cuppa-colour-chart li').removeClass('on');
+                        $(this).addClass('on');
+                    });
+                    $('.cuppa-chart-barely').hover(function() { $('.cuppa-barely').show(); });
+                    $('.cuppa-chart-milky').hover(function() { $('.cuppa-milky').show(); });
+                    $('.cuppa-chart-builders').hover(function() { $('.cuppa-builders').show(); });
+                    $('.cuppa-chart-regular').hover(function() { $('.cuppa-regular').show(); });
+                    $('.cuppa-chart-black').hover(function() { $('.cuppa-black').show(); });
+
+                    $('.cuppa-colour-chart li').click(function() {
+                        $('.cuppa-overlay').show();
+                    });
+
+                    $('.cuppa-chart-barely').click(function() {
+                    $('.cuppa-result-barely').addClass('show');
+                    });
+                    $('.cuppa-chart-milky').click(function() {
+                        $('.cuppa-result-milky').addClass('show');
+                    });
+                    $('.cuppa-chart-builders').click(function() {
+                        $('.cuppa-result-builders').addClass('show');
+                    });
+                    $('.cuppa-chart-regular').click(function() {
+                        $('.cuppa-result-regular').addClass('show');
+                    });
+                    $('.cuppa-chart-black').click(function() {
+                        $('.cuppa-result-black').addClass('show');
+                    });
+                }
+
+
+                $('.cuppa-chart-barely small').click(function() {
+                    $('.cuppa-result-barely').addClass('show');
+                });
+                $('.cuppa-chart-milky small').click(function() {
+                    $('.cuppa-result-milky').addClass('show');
+                });
+                $('.cuppa-chart-builders small').click(function() {
+                    $('.cuppa-result-builders').addClass('show');
+                });
+                $('.cuppa-chart-regular small').click(function() {
+                    $('.cuppa-result-regular').addClass('show');
+                });
+                $('.cuppa-chart-black small').click(function() {
+                    $('.cuppa-result-black').addClass('show');
+                });
+
+
+                var windowWidth = $(window).width();
+                if (windowWidth < 700) {
+                    $('.cuppa-colour-chart small').click(function() {
+                        $('html').ScrollTo({
+                            duration: 300
+                        });
+                    });
+                    $('.cuppa-close, .cuppa-overlay').click(function() {
+                        $('.cuppa-main').ScrollTo({
+                            duration: 300
+                        });
+                    });
+                }
+
+
+                $('.cuppa-colour-chart small').click(function() {
+                    $('.cuppa-overlay').show();
+                });
+                $('.cuppa-close, .cuppa-overlay').click(function() {
+                    $('.cuppa-result-wrap').removeClass('show');
+                    $('.cuppa-overlay').hide();
+                });
+
+
+                // Make Facebook/Twitter buttons open in popup window
+                $('.cuppa-fb, .cuppa-tweet').click(function (event) {
+                    event.preventDefault();
+                    window.open($(this).attr("href"), "popupWindow", "width=600,height=600,scrollbars=yes");
+                });
+
+            });
+
+        </script>
+
+
+    </body>
+</html>
